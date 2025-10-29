@@ -2,7 +2,7 @@
 
 import useEmblaCarousel from 'embla-carousel-react'
 import { ChevronLeft, ChevronRight, Scissors, Syringe, CarTaxiFront, Hotel, Clock } from 'lucide-react'
-import { WhatsappLogo } from '@phosphor-icons/react'
+import { WhatsappLogo, WhatsappLogoIcon } from '@phosphor-icons/react'
 
 const services = [
   {
@@ -97,7 +97,7 @@ export function Services() {
                         href={`https://wa.me/556799998800?text=Olá vim pelo site e gostaria de mais informações sbore ${item.title}`}
                         className='flex items-center justify-center gap-2 hover:bg-red-500 px-4 py-1 rounded-md duration-300'
                       >
-                        <WhatsappLogo className='w-5 h-5' />
+                        <WhatsappLogoIcon className='w-5 h-5' />
                         Entrar em contato
                       </a>
 
